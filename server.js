@@ -6,6 +6,8 @@ const PORT = process.env.PORT || 3000;
 // Статические файлы из папки public
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/img', express.static('img'));
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
