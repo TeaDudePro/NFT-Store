@@ -6,15 +6,21 @@ body {
 
 }
 
+@font-face {
+  font-family: 'CocoBiker';
+  src: url('fonts/CocobikerBold.ttf');
+}
+
 h1 {
-  font-family: 'fantasy', sans-serif;
+  font-family: 'CocoBiker', sans-serif;
   font-weight: bold;
-  font-style: oblique;  
-  color: #ff0000;
+  color: #7ed957;
+  -webkit-text-stroke: 1.5px #e6111a;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h2 {font-family: 'fantasy', sans-serif;
+h2 {
+  font-family: 'CocoBiker', sans-serif;
   font-weight: bold;  
   color: #38ea21; /* Цвет текста */
   -webkit-text-stroke: 1px #000000;
@@ -55,6 +61,8 @@ button {
   padding: 5px 20px;
   border: none;
   background: #12b443;
+  font-family: 'CocoBiker', sans-serif;
+  font-weight: bold;
   color: #f0d804;
   font-size: 16px;
   border-radius: 5px;
