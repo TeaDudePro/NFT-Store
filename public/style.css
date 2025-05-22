@@ -69,6 +69,19 @@ button {
   cursor: pointer;
 }
 
+button3 {
+  margin-top: 4px;
+  padding: 5px 20px;
+  border: none;
+  background: #05c5ff;
+  font-family: 'CocoBiker', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 button2 {
   margin-top: 10px;
   padding: 5px 20px;
